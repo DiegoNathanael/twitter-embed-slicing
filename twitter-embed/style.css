@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    background-color: #141d26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #243447;
+    margin: auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 1.1rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.profile img {
+    height: 3rem;
+}
+
+.name {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uname {
+    color: #fff;
+    font-weight: 600;
+}
+
+.handle {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.twt {
+    display: flex;
+    align-items: center;
+}
+
+.twt img {
+    width: 1.7rem;
+}
+
+.middle {
+    margin-bottom: 0.7rem;
+    color: #fff;
+    line-height: 1.7rem;
+}
+
+.middle a {
+    color: #1da1f2;
+}
+
+.bottom {
+    display: flex;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+span {
+    display: flex;
+}
+
+span p {
+    margin-left: 0.7rem;
+}
+
+.time {
+    margin-left: 1.2rem;
+}
+
